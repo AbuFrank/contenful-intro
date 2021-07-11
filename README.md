@@ -1,3 +1,27 @@
+## First Steps
+
+1. Make sure you have nvm installed (currently using npm version 14.17.3)
+
+```bash
+nvm install lts/fermium
+```
+
+2. Create a `.env.local` file and add the key entries
+```.env
+NEXT_PUBLIC_CONTENTFUL_SPACE_ID="<space id>"
+NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN="<access token>"
+```
+
+3. Install node dependencies
+```bash
+npm install
+```
+
+4. Run the app
+```
+npm run dev
+```
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -28,6 +52,8 @@ To learn more about Next.js, take a look at the following resources:
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
+
+Dev Note: will likely deploy to Netlify for testing.
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
